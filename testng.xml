@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="utils.MySQLListener" />
+	</listeners>
+	<test thread-count="5" name="API Tests">
+		<classes>
+			<class name="com.tests.email.EmailNotifications" />
+			<class name="com.tests.push_android.PushNotificationsAndroid" />
+
+			<!-- <class name="com.tests.sms.SMSNotifications"/> <class name="com.tests.push_ios.PushNotificationsAndroid"/> -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

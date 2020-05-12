@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="utils.MySQLListener"/>
+  </listeners>
+  <test thread-count="5" name="API Tests(failed)">
+    <classes>
+      <class name="com.tests.email.EmailNotifications">
+        <methods>
+          <include name="emailNotificationsTest"/>
+        </methods>
+      </class> <!-- com.tests.email.EmailNotifications -->
+    </classes>
+  </test> <!-- API Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

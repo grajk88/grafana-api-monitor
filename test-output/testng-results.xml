@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="269" started-at="2020-05-12T10:35:44 BST" finished-at="2020-05-12T10:35:45 BST">
+    <groups>
+    </groups>
+    <test name="API Tests" duration-ms="269" started-at="2020-05-12T10:35:44 BST" finished-at="2020-05-12T10:35:45 BST">
+      <class name="com.tests.push_android.PushNotificationsAndroid">
+        <test-method status="PASS" signature="pushNotificationsAndroid()[pri:0, instance:com.tests.push_android.PushNotificationsAndroid@4a55a6e8]" name="pushNotificationsAndroid" duration-ms="127" started-at="2020-05-12T10:35:44 BST" finished-at="2020-05-12T10:35:45 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pushNotificationsAndroid -->
+      </class> <!-- com.tests.push_android.PushNotificationsAndroid -->
+      <class name="com.tests.email.EmailNotifications">
+        <test-method status="PASS" signature="emailNotificationsTest()[pri:0, instance:com.tests.email.EmailNotifications@660591fb]" name="emailNotificationsTest" duration-ms="128" started-at="2020-05-12T10:35:44 BST" finished-at="2020-05-12T10:35:44 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailNotificationsTest -->
+      </class> <!-- com.tests.email.EmailNotifications -->
+    </test> <!-- API Tests -->
+  </suite> <!-- Suite -->
+</testng-results>
